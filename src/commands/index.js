@@ -1,1 +1,1 @@
-import newProject from './new'; export { newProject };
+import newProjectCommand from './new'; export { newProjectCommand };

@@ -1,0 +1,26 @@
+{
+  "env": {
+    "test": {
+      "presets": [
+        "env",
+        "react",
+        "flow"
+      ],
+      "plugins": [
+        "react-hot-loader/babel"
+      ],
+    },
+    "development": {
+      "presets": [
+        ["env", {
+          "modules": false,
+        }],
+        "react",
+        "flow"
+      ],
+      "plugins": [
+        "react-hot-loader/babel"
+      ],
+    }
+  }
+}
