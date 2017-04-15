@@ -26,9 +26,8 @@ function newProjectCommand(name: string) {
     { name },
   );
   virtfs.commit([], () => {
-    console.log('complete');
+
   });
-  console.log('✨');
 }
 
 export default newProjectCommand;
